@@ -1,3 +1,15 @@
+body{
+    background-image: url("../images/bg1.jpg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;   
+ }
+ 
 .login-box{
     background-color: rgba(255, 255, 255, 0.575);
     width: 400px;
