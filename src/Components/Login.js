@@ -5,7 +5,7 @@ import logoipn from '../images/logoipn.png';
 export default class Login extends Component {
     render() {
         return (
-            <div className="body">
+            <div className="logincomponent">
                 <div className="login-box">
                     <img className="avatar" src={logoipn} alt="logo IPN"/>
                     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"/>
@@ -30,7 +30,7 @@ export default class Login extends Component {
                     <a  class="opcregistro" href="#">Pre-registrate aquí</a>
                 
                 </div>
-                </div>
+            </div>
         )   
     }
 }
