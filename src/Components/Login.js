@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
 import './Login.scss';
+import '../App.js';
+
 import logoipn from '../images/logoipn.png';
 
 export default class Login extends Component {
@@ -27,8 +31,9 @@ export default class Login extends Component {
                     </form>
                     
                     <a href="#">¿Olvidaste tu contraseña?</a><br/>
-                    <a  class="opcregistro" href="#">Pre-registrate aquí</a>
-                
+                    <Link to="/preregistro">
+                    <a  class="opcregistro" >Pre-registro</a>
+                    </Link>
                 </div>
             </div>
         )   
