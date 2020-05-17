@@ -20,17 +20,17 @@ export default class Login extends Component {
 
                     <form>
                         
-                        <label for="username">Username</label>
-                        <input type="text" placeholder="Username"/>
+                        <label for="usuario">Usuario</label>
+                        <input type="text" placeholder="Usuario"/>
 
-                        <label for="password">Password</label>
-                        <input type="text" placeholder="Password"/>
+                        <label for="contraseña">Contraseña</label>
+                        <input type="password" placeholder="Constraseña"/>
 
                         <button className="boton">Login</button>
                     
                     </form>
                     
-                    <a href="#">¿Olvidaste tu contraseña?</a><br/>
+                    <a >¿Olvidaste tu contraseña?</a><br/>
                     <Link to="/preregistro">
                     <a  class="opcregistro" >Pre-registro</a>
                     </Link>

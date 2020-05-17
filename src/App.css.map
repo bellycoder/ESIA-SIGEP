@@ -1,9 +1,8 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,IAAI,CAAA;EACC;kDAC6C;EAC9C,gBAAgB,EAAE,uBAAuB;EACzC,qBAAqB,EAAC,KAAK;EAC3B,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,KAAK;CACzB;;ACPD,AAAA,UAAU,CAAA;EACN,IAAI,EAAE,KAAK;CACd",
+    "mappings": "",
     "sources": [
-        "App.scss",
-        "styles/login.scss"
+        "App.scss"
     ],
     "names": [],
     "file": "App.css"

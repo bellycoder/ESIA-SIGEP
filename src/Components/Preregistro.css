@@ -1,0 +1,175 @@
+.preregistro {
+  background-image: url("../images/bg1.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.preregistro-box {
+  background-color: rgba(255, 255, 255, 0.575);
+  width: 600px;
+  height: 750px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  /*Center at 50% from every side*/
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 70px 30px;
+  /* 70px top intern - 30px top sides */
+}
+
+.preregistro-box h3 {
+  margin-top: 110px;
+  margin-bottom: 25px;
+  padding: 0 1 50px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+.preregistro-box .avatar {
+  width: 120px;
+  height: 130px;
+  position: absolute;
+  top: 30px;
+  left: calc(50% - 59px);
+}
+
+.preregistro-box label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #0148a3;
+}
+
+.preregistro-box input {
+  margin-top: 7px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  text-indent: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: black;
+}
+
+.preregistro-box input::-webkit-input-placeholder {
+  color: rgba(61, 59, 59, 0.808);
+  font-size: 12px;
+  text-indent: 1em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.preregistro-box input:-ms-input-placeholder {
+  color: rgba(61, 59, 59, 0.808);
+  font-size: 12px;
+  text-indent: 1em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.preregistro-box input::-ms-input-placeholder {
+  color: rgba(61, 59, 59, 0.808);
+  font-size: 12px;
+  text-indent: 1em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.preregistro-box input::placeholder {
+  color: rgba(61, 59, 59, 0.808);
+  font-size: 12px;
+  text-indent: 1em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.preregistro-box select {
+  background-color: white;
+  margin-top: 7px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  text-indent: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: black;
+}
+
+.preregistro-box select::-webkit-input-placeholder {
+  color: rgba(104, 102, 102, 0.432);
+  text-indent: 1em;
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.preregistro-box select:-ms-input-placeholder {
+  color: rgba(104, 102, 102, 0.432);
+  text-indent: 1em;
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.preregistro-box select::-ms-input-placeholder {
+  color: rgba(104, 102, 102, 0.432);
+  text-indent: 1em;
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.preregistro-box select::placeholder {
+  color: rgba(104, 102, 102, 0.432);
+  text-indent: 1em;
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.preregistro-box .boton {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin-top: 13px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 30px;
+  border: 0;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: #0148a3;
+}
+
+.preregistro-box .boton:hover {
+  background-color: #25347D;
+  color: white;
+}
+
+.preregistro-box form {
+  margin-bottom: 15px;
+}
+
+a {
+  color: #34001c;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  margin: 55px;
+}
+/*# sourceMappingURL=Preregistro.css.map */
